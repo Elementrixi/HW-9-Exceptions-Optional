@@ -6,7 +6,7 @@ import main.java.com.alpashaev.rethrowing.RethrowingException;
 
 public class Executor {
     public static void start() {
-        ExceptionsTest.ExceptionsTest();
+        ExceptionsTest.exceptionsTest();
         SafeDivision.safeDivision();
         RethrowingException.someMethod();
     }
