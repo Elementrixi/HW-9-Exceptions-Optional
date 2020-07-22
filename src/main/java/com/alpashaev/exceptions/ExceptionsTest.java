@@ -8,7 +8,7 @@ public class ExceptionsTest {
     public static void exceptionsTest() {
         exceptionA();
         exceptionB(true);
-        nullPointerException(enableA, false);
+        nullPointerException();
         ioException();
     }
 
@@ -32,7 +32,7 @@ public class ExceptionsTest {
         }
     }
 
-    public static void nullPointerException(boolean enableA, boolean enableB) {
+    public static void nullPointerException() {
         try {
             throw new NullPointerException();
         } catch (NullPointerException e) {
